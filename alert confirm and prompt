@@ -1,0 +1,17 @@
+alert("Hey whats ur age ?");//alert
+let a = prompt("Enter ur age here in digits", "e.g. 10");//prompt
+a = Number.parseInt(a);
+if (a <= 0 && a > 100) {
+  console.log("Age is undefined");
+}
+else if (a <= 5) {
+  console.log("You are underaged");
+}
+document.write(a);
+let write=confirm("do you want it to write to the page")//confirm
+if(write){
+  console.log(a);
+}
+else{
+  console.log("please allow ")
+}
